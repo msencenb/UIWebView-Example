@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface SimpleBrowserViewController : UIViewController {
+    IBOutlet UIWebView *webView;
+}
+
+@property(nonatomic,retain)IBOutlet UIWebView *webView;
+
+-(IBAction)goBack:(id)sender;
+-(IBAction)goForward:(id)sender;
+
 
 @end

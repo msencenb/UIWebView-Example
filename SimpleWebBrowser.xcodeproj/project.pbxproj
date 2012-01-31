@@ -13,8 +13,8 @@
 		BBBCBDD714D89EEE00F83D39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BBBCBDD514D89EEE00F83D39 /* InfoPlist.strings */; };
 		BBBCBDD914D89EEE00F83D39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBCBDD814D89EEE00F83D39 /* main.m */; };
 		BBBCBDDD14D89EEE00F83D39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBCBDDC14D89EEE00F83D39 /* AppDelegate.m */; };
-		BBBCBDE014D89EEE00F83D39 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBCBDDF14D89EEE00F83D39 /* ViewController.m */; };
-		BBBCBDE314D89EEE00F83D39 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBBCBDE114D89EEE00F83D39 /* ViewController.xib */; };
+		BBBCBDE014D89EEE00F83D39 /* SimpleBrowserViewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBCBDDF14D89EEE00F83D39 /* SimpleBrowserViewcontroller.m */; };
+		BBBCBDE314D89EEE00F83D39 /* SimpleBrowserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBBCBDE114D89EEE00F83D39 /* SimpleBrowserViewController.xib */; };
 		BBBCBDEB14D89EEE00F83D39 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBBCBDEA14D89EEE00F83D39 /* SenTestingKit.framework */; };
 		BBBCBDEC14D89EEE00F83D39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBBCBDCC14D89EEE00F83D39 /* UIKit.framework */; };
 		BBBCBDED14D89EEE00F83D39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBBCBDCE14D89EEE00F83D39 /* Foundation.framework */; };
@@ -37,20 +37,20 @@
 		BBBCBDCC14D89EEE00F83D39 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BBBCBDCE14D89EEE00F83D39 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BBBCBDD014D89EEE00F83D39 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		BBBCBDD414D89EEE00F83D39 /* SimpleWebBrowser-Info.plist */ = {isa = PBXFileReference; path = "SimpleWebBrowser-Info.plist"; sourceTree = "<group>"; };
+		BBBCBDD414D89EEE00F83D39 /* SimpleWebBrowser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleWebBrowser-Info.plist"; sourceTree = "<group>"; };
 		BBBCBDD614D89EEE00F83D39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BBBCBDD814D89EEE00F83D39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BBBCBDDA14D89EEE00F83D39 /* SimpleWebBrowser-Prefix.pch */ = {isa = PBXFileReference; path = "SimpleWebBrowser-Prefix.pch"; sourceTree = "<group>"; };
-		BBBCBDDB14D89EEE00F83D39 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		BBBCBDDA14D89EEE00F83D39 /* SimpleWebBrowser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleWebBrowser-Prefix.pch"; sourceTree = "<group>"; };
+		BBBCBDDB14D89EEE00F83D39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BBBCBDDC14D89EEE00F83D39 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BBBCBDDE14D89EEE00F83D39 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
-		BBBCBDDF14D89EEE00F83D39 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BBBCBDE214D89EEE00F83D39 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		BBBCBDDE14D89EEE00F83D39 /* SimpleBrowserViewController.h */ = {isa = PBXFileReference; path = SimpleBrowserViewController.h; sourceTree = "<group>"; };
+		BBBCBDDF14D89EEE00F83D39 /* SimpleBrowserViewcontroller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleBrowserViewcontroller.m; sourceTree = "<group>"; };
+		BBBCBDE214D89EEE00F83D39 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SimpleBrowserViewController.xib; sourceTree = "<group>"; };
 		BBBCBDE914D89EEE00F83D39 /* SimpleWebBrowserTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleWebBrowserTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBBCBDEA14D89EEE00F83D39 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		BBBCBDF214D89EEE00F83D39 /* SimpleWebBrowserTests-Info.plist */ = {isa = PBXFileReference; path = "SimpleWebBrowserTests-Info.plist"; sourceTree = "<group>"; };
+		BBBCBDF214D89EEE00F83D39 /* SimpleWebBrowserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleWebBrowserTests-Info.plist"; sourceTree = "<group>"; };
 		BBBCBDF414D89EEE00F83D39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		BBBCBDF614D89EEE00F83D39 /* SimpleWebBrowserTests.h */ = {isa = PBXFileReference; path = SimpleWebBrowserTests.h; sourceTree = "<group>"; };
+		BBBCBDF614D89EEE00F83D39 /* SimpleWebBrowserTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleWebBrowserTests.h; sourceTree = "<group>"; };
 		BBBCBDF714D89EEE00F83D39 /* SimpleWebBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleWebBrowserTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,9 +113,9 @@
 			children = (
 				BBBCBDDB14D89EEE00F83D39 /* AppDelegate.h */,
 				BBBCBDDC14D89EEE00F83D39 /* AppDelegate.m */,
-				BBBCBDDE14D89EEE00F83D39 /* ViewController.h */,
-				BBBCBDDF14D89EEE00F83D39 /* ViewController.m */,
-				BBBCBDE114D89EEE00F83D39 /* ViewController.xib */,
+				BBBCBDDE14D89EEE00F83D39 /* SimpleBrowserViewController.h */,
+				BBBCBDDF14D89EEE00F83D39 /* SimpleBrowserViewcontroller.m */,
+				BBBCBDE114D89EEE00F83D39 /* SimpleBrowserViewController.xib */,
 				BBBCBDD314D89EEE00F83D39 /* Supporting Files */,
 			);
 			path = SimpleWebBrowser;
@@ -223,7 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBBCBDD714D89EEE00F83D39 /* InfoPlist.strings in Resources */,
-				BBBCBDE314D89EEE00F83D39 /* ViewController.xib in Resources */,
+				BBBCBDE314D89EEE00F83D39 /* SimpleBrowserViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +260,7 @@
 			files = (
 				BBBCBDD914D89EEE00F83D39 /* main.m in Sources */,
 				BBBCBDDD14D89EEE00F83D39 /* AppDelegate.m in Sources */,
-				BBBCBDE014D89EEE00F83D39 /* ViewController.m in Sources */,
+				BBBCBDE014D89EEE00F83D39 /* SimpleBrowserViewcontroller.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,12 +291,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		BBBCBDE114D89EEE00F83D39 /* ViewController.xib */ = {
+		BBBCBDE114D89EEE00F83D39 /* SimpleBrowserViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				BBBCBDE214D89EEE00F83D39 /* en */,
 			);
-			name = ViewController.xib;
+			name = SimpleBrowserViewController.xib;
 			sourceTree = "<group>";
 		};
 		BBBCBDF314D89EEE00F83D39 /* InfoPlist.strings */ = {

@@ -6,9 +6,22 @@
 //  Copyright (c) 2012 Stanford University. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "SimpleBrowserViewController.h"
 
-@implementation ViewController
+@implementation SimpleBrowserViewController
+@synthesize webView;
+
+-(IBAction)goBack:(id)sender {
+    if ([webView canGoBack]) {
+        [webView goBack];
+    }
+}
+
+-(IBAction)goForward:(id)sender {
+    if ([webView canGoForward]) {
+        [webView goForward];
+    }
+}
 
 - (void)didReceiveMemoryWarning
 {
@@ -20,6 +33,9 @@
 
 - (void)viewDidLoad
 {
+    NSURL *url = [NSURL URLWithString:@"http://www.google.com"];
+    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    [webView loadRequest:request];
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
